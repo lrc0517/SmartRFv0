@@ -1,0 +1,82 @@
+[
+    {
+        "merged": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button.png",
+        "source": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\src\\main\\res\\drawable-hdpi\\button.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_pressed.png",
+        "source": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\src\\main\\res\\drawable-hdpi\\button_pressed.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\add_app_horizontal_line.9.png",
+        "source": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\src\\main\\res\\drawable-hdpi\\add_app_horizontal_line.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\battery2.png",
+        "source": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\src\\main\\res\\drawable-hdpi\\battery2.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\add_list_select.9.png",
+        "source": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\src\\main\\res\\drawable-hdpi\\add_list_select.9.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bt_share.png",
+        "source": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\src\\main\\res\\drawable-hdpi\\bt_share.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\switch_led_red_on.png",
+        "source": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\src\\main\\res\\drawable-hdpi\\switch_led_red_on.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\battery4.png",
+        "source": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\src\\main\\res\\drawable-hdpi\\battery4.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\battery1.png",
+        "source": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\src\\main\\res\\drawable-hdpi\\battery1.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\switch_led_green_on.png",
+        "source": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\src\\main\\res\\drawable-hdpi\\switch_led_green_on.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\switch__led_off.png",
+        "source": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\src\\main\\res\\drawable-hdpi\\switch__led_off.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\temperature.png",
+        "source": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\src\\main\\res\\drawable-hdpi\\temperature.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\relays_off.png",
+        "source": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\src\\main\\res\\drawable-hdpi\\relays_off.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\humidity.png",
+        "source": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\src\\main\\res\\drawable-hdpi\\humidity.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\relays_on.png",
+        "source": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\src\\main\\res\\drawable-hdpi\\relays_on.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\battery_charging.png",
+        "source": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\src\\main\\res\\drawable-hdpi\\battery_charging.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\battery3.png",
+        "source": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\src\\main\\res\\drawable-hdpi\\battery3.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\button_normal.png",
+        "source": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\src\\main\\res\\drawable-hdpi\\button_normal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\switch_led_blue_on.png",
+        "source": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\src\\main\\res\\drawable-hdpi\\switch_led_blue_on.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\battery0.png",
+        "source": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\src\\main\\res\\drawable-hdpi\\battery0.png"
+    }
+]

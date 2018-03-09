@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SmartRFv0.iml" filepath="$PROJECT_DIR$/SmartRFv0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aijiubao/aijiubao.iml" filepath="$PROJECT_DIR$/aijiubao/aijiubao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/factorytests/factorytests.iml" filepath="$PROJECT_DIR$/factorytests/factorytests.iml" />
+    </modules>
+  </component>
+</project>

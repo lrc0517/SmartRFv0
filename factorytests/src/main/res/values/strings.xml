@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">蕲艾宝工厂测试</string>
+    <string name="action_settings">关闭</string>
+
+    <string name="ble_not_supported">Your cell phone doesn\'t support BLE</string>
+    <string name="error_bluetooth_not_supported">Your cell phone doesn\'t support BLE</string>
+    <string name="do_open_bluetooth">Bluetooth is Open</string>
+    <string name="str_needle_work_status">Status:&#160;</string>
+    <string name="str_needle_work_status_working">Working</string>
+    <string name="str_needle_work_status_stop">Stop</string>
+    <string name="str_needle_work_temp">Temp.:&#160;</string>
+    <string name="str_needle_work_temp_unit">&#160;℃</string>
+    <string name="str_needle_work_time">Time:&#160;</string>
+    <string name="str_needle_work_time_unit">&#160;min</string>
+</resources>

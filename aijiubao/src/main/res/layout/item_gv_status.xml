@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@null"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/item_view_bottom_padding"
+    android:paddingLeft="@dimen/item_view_padding"
+    android:paddingTop="@dimen/item_view_top_padding">
+
+    <ImageView
+        android:id="@+id/iv_item_number"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/item_view_margin"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_status"
+            style="@style/TxtStyleNeedle" />
+
+        <TextView
+            android:id="@+id/tv_temperature"
+            style="@style/TxtStyleNeedle"
+            android:layout_marginTop="@dimen/item_view_margin" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            style="@style/TxtStyleNeedle"
+            android:layout_marginTop="@dimen/item_view_margin"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

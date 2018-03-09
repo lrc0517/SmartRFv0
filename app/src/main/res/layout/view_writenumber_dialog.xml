@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@null"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:padding="30dp"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textColor="@color/color_btn_normal_dark"
+        android:textSize="30sp"
+        android:text="确定写入此编号？"
+        android:background="@drawable/bg_btn_top_selector"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button android:padding="30dp"
+            android:id="@+id/button_confirm"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_btn_bottom_left_selector"
+            android:text="确定"
+            android:textAllCaps="true"
+            android:textColor="@color/color_btn_test_normal"
+            android:textSize="30sp" />
+
+        <Button
+            android:padding="30dp"
+            android:id="@+id/button_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_btn_bottom_right_selector"
+            android:text="取消"
+            android:textAllCaps="true"
+            android:textColor="@color/color_btn_test_normal"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<resources>
+    <string name="txt_title_write_number">Write Number</string>
+    <string name="txt_title_test_section">Test Section</string>
+
+    <string name="txt_title_test_write_jin">金</string>
+    <string name="txt_title_test_write_mu">木</string>
+    <string name="txt_title_test_write_shui">水</string>
+    <string name="txt_title_test_write_huo">火</string>
+    <string name="txt_title_test_write_tu">土</string>
+
+    <string name="ble_not_supported">Your cell phone doesn\'t support BLE</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">The connection has been disconnected</string>
+    <string name="title_devices">Bluetooth device scan</string>
+    <string name="error_bluetooth_not_supported">Your cell phone doesn\'t support BLE</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown eigenvalue</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <string name="do_open_bluetooth">Bluetooth is Open</string>
+    <string name="txt_btn_start">START</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    <string name="device_rssi">Rssi signal</string>
+    <string name="text_detail">detail</string>
+
+    <string name="connect_state">Connected devices, the current device has a low power consumption, the current current is only 1 ~ 200uA</string>
+    <string name="edit_SetDeviceName">BLE4.0-Device</string>
+    <string name="button_SetDeviceName">Write the device name</string>
+    <string name="SetDeviceName_tips">You need to restart the device manually after setting the device name</string>
+    <string name="txt_temperature">Current temperature:</string>
+    <string name="start_button_SetPwm">Send all data manually</string>
+    <string name="stop_button_SetPwm">Manually obtain data</string>
+    <string name="voltage">Cell voltage:</string>
+
+
+
+
+
+
+</resources>

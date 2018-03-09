@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="color_btn_test_normal">#ededed</color>
+    <color name="color_btn_test_pressed">#b7b7b7</color>
+    <color name="color_btn_test_ok">#01c632</color>
+    <color name="color_btn_test_failed">#9dfd1601</color>
+
+    <color name="color_btn_normal_dark">#f8000000</color>
+
+    <color name="colorPrimary">#4491d4</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_dark_green">#9d258423</color>
+    <color name="color_transparent">#0000</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="color_bg_picker_view">#c9c4c6</color>
+    <color name="color_dark">#3d3c3c</color>
+    <color name="color">#7793ab</color>
+</resources>

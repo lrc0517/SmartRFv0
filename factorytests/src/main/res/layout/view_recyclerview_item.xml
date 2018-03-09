@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:padding="5dp"
+    android:background="@drawable/bg_gv_item"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_item_number"
+        android:src="@mipmap/ic_aijiubao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginLeft="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_status"
+            style="@style/TxtStyleNeedle" />
+
+        <TextView
+            android:id="@+id/tv_temperature"
+            style="@style/TxtStyleNeedle"
+            android:layout_marginTop="@dimen/item_view_margin" />
+
+        <TextView android:visibility="gone"
+            android:id="@+id/tv_time"
+            style="@style/TxtStyleNeedle"
+            android:layout_marginTop="@dimen/item_view_margin"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_top_marin">20dp</dimen>
+
+    <dimen name="title_height">65dp</dimen>
+
+    <dimen name="height_pick_view_tittle">40dp</dimen>
+    <dimen name="width_pick_view_tittle">70dp</dimen>
+
+    <dimen name="height_pick_view">180dp</dimen>
+
+    <dimen name="item_view_top_padding">30dp</dimen>
+    <dimen name="item_view_bottom_padding">30dp</dimen>
+    <dimen name="item_view_padding">10dp</dimen>
+    <dimen name="item_view_margin">10dp</dimen>
+
+
+    <dimen name="size_pick_view_title">18sp</dimen>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="size_pick_view_title">16sp</dimen>
+    <dimen name="item_view_margin">15dp</dimen>
+</resources>

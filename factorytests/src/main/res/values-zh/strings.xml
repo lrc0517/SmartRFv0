@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">蕲艾宝工厂测试</string>
+    <string name="action_settings">关闭</string>
+
+    <string name="ble_not_supported">您的手机不支持蓝牙</string>
+    <string name="error_bluetooth_not_supported">您的手机不支持蓝牙</string>
+    <string name="do_open_bluetooth">蓝牙已经打开</string>
+    <string name="str_needle_work_status">状态:&#160;</string>
+    <string name="str_needle_work_status_working">工作中</string>
+    <string name="str_needle_work_status_stop">停止</string>
+    <string name="str_needle_work_temp">温度:&#160;</string>
+    <string name="str_needle_work_temp_unit">&#160;℃</string>
+    <string name="str_needle_work_time">时间:&#160;</string>
+    <string name="str_needle_work_time_unit">&#160;min</string>
+</resources>
