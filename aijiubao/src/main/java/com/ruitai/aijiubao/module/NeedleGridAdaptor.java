@@ -93,8 +93,7 @@ public class NeedleGridAdaptor extends BaseAdapter {
                 }
                 workTemperature = mResource.getString(R.string.str_needle_work_temp) + needle.temperature + mResource.getString(R.string.str_needle_work_temp_unit);
                 workTime = mResource.getString(R.string.str_needle_work_time) + needle.time + mResource.getString(R.string.str_needle_work_time_unit);
-                deviceId = needle.deviceId;
-
+                deviceId = needle.deviceId >5 ||needle.deviceId <0?0:needle.deviceId;
                 holder.icon.setImageResource(mIconDatas[deviceId]);
                 holder.status.setText(workStatus);
                 holder.temperature.setText(workTemperature);

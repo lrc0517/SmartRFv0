@@ -17,6 +17,7 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.util.ArrayMap;
 import android.util.Log;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -42,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
     private Animation mDialogAnimation;
     private ImageView mDialogImg;
     private Dialog mReflashDialog;
+    private Dialog mWriteDialog;
     private RecyclerView mRecyclerView;
     private NeedleGridAdaptor mNeedleGridAdaptor;
     private GridLayoutManager mGridLayoutManager;
@@ -123,6 +125,10 @@ public class MainActivity extends AppCompatActivity {
         mDialogAnimation = AnimationUtils.loadAnimation(this, R.anim.reflesh_anim);
 
         mReflashDialog.setContentView(mDialogImg);
+
+        mWriteDialog = new Dialog(this, R.style.dialog_custom);
+        //mWriteDialog.setc
+
     }
 
     protected void checkBLT() {
@@ -161,6 +167,8 @@ public class MainActivity extends AppCompatActivity {
 
     private void initListener() {
         mFab.setOnClickListener(mOnClickListener);
+        mNeedleGridAdaptor.setItemClickListener(mOnItemClickListener);
+        mNeedleGridAdaptor.setItemLongClickListener(mOnItemLongClickListener);
     }
 
 
@@ -199,6 +207,26 @@ public class MainActivity extends AppCompatActivity {
         public int getSpanSize(int position) {
             Log.i(TAG,"position = "+position);
             return 2;
+        }
+    };
+
+    private NeedleGridAdaptor.OnItemClickListener mOnItemClickListener = new NeedleGridAdaptor.OnItemClickListener() {
+        @Override
+        public void onItemClick(int position) {
+            Log.e(TAG,"OnItemClickListener  position = "+position);
+
+            BltNeedle bltNeedle = mNeedleDatas.get(position+1);
+            bltNeedle.stopWork();
+
+
+        }
+    };
+
+    private NeedleGridAdaptor.OnItemLongClickListener mOnItemLongClickListener = new NeedleGridAdaptor.OnItemLongClickListener() {
+        @Override
+        public void onItemLongClick(int position) {
+            Log.e(TAG,"OnItemLongClickListener  position = "+position);
+
         }
     };
 }

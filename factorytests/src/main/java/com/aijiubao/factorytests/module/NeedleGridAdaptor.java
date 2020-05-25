@@ -19,7 +19,7 @@ import com.aijiubao.factorytests.utils.NeedleBean;
  * Created by static on 2017/9/26.
  */
 
-public class NeedleGridAdaptor extends RecyclerView.Adapter {
+public class NeedleGridAdaptor extends RecyclerView.Adapter implements View.OnClickListener,View.OnLongClickListener {
 
     private final Resources mResource;
     private Context mContext;
@@ -36,15 +36,19 @@ public class NeedleGridAdaptor extends RecyclerView.Adapter {
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        ViewHolder holder = new ViewHolder(LayoutInflater.from(
+        View inflate = LayoutInflater.from(
                 mContext).inflate(R.layout.view_recyclerview_item, parent,
-                false));
+                false);
+        ViewHolder holder = new ViewHolder(inflate);
+        inflate.setOnClickListener(this);
+        inflate.setOnLongClickListener(this);
         return holder;
     }
 
     @Override
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
         ViewHolder viewholder = (ViewHolder) holder;
+        viewholder.itemView.setTag(position);
         String workStatus = null;
         String workTemperature = null;
         String workTime = null;
@@ -69,7 +73,6 @@ public class NeedleGridAdaptor extends RecyclerView.Adapter {
                 viewholder.temperature.setText(workTemperature);
                 viewholder.time.setText(workTime);
             }else{
-
             }
         }
     }
@@ -77,6 +80,21 @@ public class NeedleGridAdaptor extends RecyclerView.Adapter {
     @Override
     public int getItemCount() {
         return mNeedleDatas == null ? 0 : mNeedleDatas.size();
+    }
+
+    @Override
+    public void onClick(View v) {
+        if (mItemClickListener!=null){
+            mItemClickListener.onItemClick((Integer) v.getTag());
+        }
+    }
+
+    @Override
+    public boolean onLongClick(View v) {
+        if (mItemLongClickListener!=null){
+            mItemLongClickListener.onItemLongClick((Integer) v.getTag());
+        }
+        return true;
     }
 
 
@@ -94,4 +112,21 @@ public class NeedleGridAdaptor extends RecyclerView.Adapter {
             time = (TextView) view.findViewById(R.id.tv_time);
         }
     }
+
+    private OnItemClickListener mItemClickListener;
+    public interface OnItemClickListener{
+        void onItemClick(int position);
+    }
+    public void setItemClickListener(OnItemClickListener itemClickListener) {
+        mItemClickListener = itemClickListener;
+    }
+
+    private OnItemLongClickListener mItemLongClickListener;
+    public interface OnItemLongClickListener{
+        void onItemLongClick(int position);
+    }
+    public void setItemLongClickListener(OnItemLongClickListener itemLongClickListener) {
+        mItemLongClickListener = itemLongClickListener;
+    }
+
 }

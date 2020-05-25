@@ -36,6 +36,7 @@ public class BltActivity extends BaseActivity {
     private NumberPickerView mPickerTime;
     private NumberPickerView mPickerTemp;
     private NumberPickerView mPickerInterval;
+    private NumberPickerView mPickerElements;
     private ImageView mIvSetting;
     private ImageView mIvRefalsh;
     private ImageView mIvBack;
@@ -109,16 +110,21 @@ public class BltActivity extends BaseActivity {
         mPickerTime = (NumberPickerView) findViewById(R.id.time_picker);
         mPickerTemp = (NumberPickerView) findViewById(R.id.temp_picker);
         mPickerInterval = (NumberPickerView) findViewById(R.id.interval_picker);
+        mPickerElements = (NumberPickerView) findViewById(R.id.elements_picker);
 
         String[] display_time = getResources().getStringArray(R.array.minute_display);
-        //String[] display_temp = getResources().getStringArray(R.array.temperature_display);
-        String[] display_gear_temp = getResources().getStringArray(R.array.temperature_gear_display);
+        String[] display_temp = getResources().getStringArray(R.array.temperature_display_58);
+        String[] display_elements = getResources().getStringArray(R.array.elements_display);
+        //Gear
+       // String[] display_gear_temp = getResources().getStringArray(R.array.temperature_gear_display_100);
         String[] display_interval = getResources().getStringArray(R.array.interval_display);
 
         mPickerTime.refreshByNewDisplayedValues(display_time);
-       // mPickerTemp.refreshByNewDisplayedValues(display_temp);
-        mPickerTemp.refreshByNewDisplayedValues(display_gear_temp);
+        mPickerTemp.refreshByNewDisplayedValues(display_temp);
+        //mPickerTemp.refreshByNewDisplayedValues(display_gear_temp);
         mPickerInterval.refreshByNewDisplayedValues(display_interval);
+        mPickerElements.refreshByNewDisplayedValues(display_elements);
+
 
         mGvNeedle = (GridView) findViewById(R.id.gv_needle);
 
@@ -170,6 +176,10 @@ public class BltActivity extends BaseActivity {
         mPickerInterval.setOnScrollListener(mPickViewOnScroll);
         mPickerInterval.setOnValueChangedListener(mPickViewOnValueChange);
         mPickerInterval.setOnValueChangeListenerInScrolling(mPickViewOnValueChangeScrolling);
+
+        mPickerElements.setOnScrollListener(mPickViewOnScroll);
+        mPickerElements.setOnValueChangedListener(mPickViewOnValueChange);
+        mPickerElements.setOnValueChangeListenerInScrolling(mPickViewOnValueChangeScrolling);
     }
 
     //+=====================================================================+//
@@ -206,7 +216,7 @@ public class BltActivity extends BaseActivity {
     private void setMaxTemperature() {
         if (mCurrentNeedle != null) {
             Toast.makeText(this,"设置数据发送中！",Toast.LENGTH_LONG).show();
-            mCurrentNeedle.setHope(mHopeTimeValue,mHopeTemperatureValue,mHopeIntervalValue);
+            mCurrentNeedle.setHope(mHopeTimeValue,mHopeTemperatureValue,mHopeIntervalValue,mHopeElementsValue);
         } else {
             Toast.makeText(this,"请长按选中设备,再进行设置！",Toast.LENGTH_LONG).show();
         }
@@ -220,10 +230,17 @@ public class BltActivity extends BaseActivity {
 
         try {
             if (needleBean != null && needleBean.enable) {
+
                 mPickerTime.setValue(needleBean.time/5 -1);
-              //  mPickerTemp.setValue(needleBean.hopeTemperature <= 40 ? needleBean.hopeTemperature-5 : needleBean.hopeTemperature - 45);
-                mPickerTemp.setValue(needleBean.hopeTemperature/5-9);
+                int hopeTemperature = needleBean.hopeTemperature;
+                Log.e(TAG,"hopeTemperature = "+hopeTemperature);
+
+                mPickerTemp.setValue(hopeTemperature < 60 ? 1 : needleBean.hopeTemperature - 45 - 15);
+                //Gear
+                //mPickerTemp.setValue(needleBean.hopeTemperature/5-9);
                 mPickerInterval.setValue(needleBean.interval/5 -1);
+
+                mPickerElements.setValue(needleBean.deviceId>5||needleBean.deviceId<0?0:needleBean.deviceId);
             }
         }catch (Exception e){
             Log.e(TAG,"Set Tempareture Error e -->"+e);
@@ -250,6 +267,7 @@ public class BltActivity extends BaseActivity {
     private int mHopeTimeValue = 30;
     private int mHopeTemperatureValue = 45;
     private int mHopeIntervalValue = 5;
+    private int mHopeElementsValue = 0;
 
     private AdapterView.OnItemClickListener mOnItemClickListener = new AdapterView.OnItemClickListener() {
         @Override
@@ -303,11 +321,15 @@ public class BltActivity extends BaseActivity {
                     mHopeTimeValue = (newVal +1) * 5;
                     break;
                 case R.id.temp_picker:
-                    //mHopeTemperatureValue = newVal + 45;
-                    mHopeTemperatureValue = (newVal + 9)*5;
+                    mHopeTemperatureValue = newVal + 45 + 15;
+                    //Gear
+                    //mHopeTemperatureValue = (newVal + 9)*5;
                     break;
                 case R.id.interval_picker:
                     mHopeIntervalValue = (newVal +1) * 5;
+                    break;
+                    case R.id.elements_picker:
+                    mHopeElementsValue = newVal ;
                     break;
             }
             Log.e(TAG, "mHopeTimeValue = " + mHopeTimeValue +",mHopeTemperatureValue = "+mHopeTemperatureValue +",mHopeIntervalValue = "+mHopeIntervalValue);

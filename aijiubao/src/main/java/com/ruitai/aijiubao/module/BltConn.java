@@ -39,6 +39,7 @@ public class BltConn {
         this.mNeedleContainer = needleContainer;
         this.mHandler = handler;
 
+        Log.e(TAG,"scanLeDevice");
         scanLeDevice(true);
         mConnTimer = new Timer();
         mConnTimer.schedule(new TimerTask() {
@@ -86,6 +87,7 @@ public class BltConn {
 
         @Override
         public void onLeScan(final BluetoothDevice device, int rssi, byte[] scanRecord) {
+            Log.e(TAG,"onLeScan  device = " +device);
 
             if (mBltAddressContainer.size() >= 5) {
                 scanLeDevice(false);

@@ -143,7 +143,7 @@ public class DeviceScanActivity extends ListActivity {
             Log.i(TAG, "mBluetoothAdapter = " + mBluetoothAdapter);
         }
 
-        // �?��蓝牙
+        //蓝牙
         mBluetoothAdapter.enable();
         Log.i(TAG, "mBluetoothAdapter.enable");
 
@@ -155,10 +155,10 @@ public class DeviceScanActivity extends ListActivity {
         }
         Log.i(TAG, "mBLE = e" + mBLE);
 
-        // 发现BLE终端的Service时回�?
+        // 发现BLE终端的Service时回
         mBLE.setOnServiceDiscoverListener(mOnServiceDiscover);
 
-        // 收到BLE终端数据交互的事�?
+        // 收到BLE终端数据交互的事
         mBLE.setOnDataAvailableListener(mOnDataAvailable);
         mHandler.sendEmptyMessageDelayed(START, 3000);
     }

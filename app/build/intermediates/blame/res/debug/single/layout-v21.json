@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\Space_Androidstudio\\SmartRFv0\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "E:\\Space_Androidstudio\\SmartRFv0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\layout-v21\\notification_action.xml"
+    },
+    {
         "merged": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
         "source": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.0.0-alpha1\\res\\layout-v21\\notification_action_tombstone.xml"
     },
@@ -10,6 +14,18 @@
     {
         "merged": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
         "source": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\26.0.0-alpha1\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\Space_Androidstudio\\SmartRFv0\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "E:\\Space_Androidstudio\\SmartRFv0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\Space_Androidstudio\\SmartRFv0\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "E:\\Space_Androidstudio\\SmartRFv0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\Space_Androidstudio\\SmartRFv0\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "E:\\Space_Androidstudio\\SmartRFv0\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\26.1.0\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
         "merged": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",

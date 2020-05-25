@@ -15,5 +15,5 @@
     <dimen name="item_view_margin">10dp</dimen>
 
 
-    <dimen name="size_pick_view_title">18sp</dimen>
+    <dimen name="size_pick_view_title">14sp</dimen>
 </resources>

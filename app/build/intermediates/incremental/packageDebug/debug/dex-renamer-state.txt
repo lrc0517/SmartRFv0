@@ -1,0 +1,4 @@
+#Mon Feb 25 15:36:45 CST 2019
+base.0=E\:\\Space_Androidstudio\\SmartRFv0\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

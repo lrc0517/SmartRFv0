@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\Space_Androidstudio\\SmartRFv0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_log.png",
+        "source": "E:\\Space_Androidstudio\\SmartRFv0\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_log.png"
+    },
+    {
         "merged": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_log.png",
         "source": "D:\\AndroidStudioSpace\\SmartRFv0\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_log.png"
     }

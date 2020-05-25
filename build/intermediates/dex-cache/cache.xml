@@ -3,228 +3,309 @@
 
     <item
         is-multidex="false"
-        jar="D:\AndroidStudioSpace\SmartRFv0\factorytests\build\intermediates\exploded-aar\com.android.support\support-v4\26.0.0-alpha1\jars\classes.jar"
+        jar="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\exploded-aar\com.android.support\support-compat\27.1.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="D:\AndroidStudioSpace\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\com.android.support-support-v4-26.0.0-alpha1_4033472ca14bda07c2478b7107ae815b9262a3ae.jar" />
+        sha1="23dcb4803d3103bde3f3f5db978a726338fe49ae">
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\com.android.support-support-compat-27.1.1_709c11803ab34dd2c1b248e31e4226bca38aec13.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidStudioSpace\SmartRFv0\factorytests\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.2\jars\classes.jar"
+        jar="E:\Space_Androidstudio\SmartRFv0\aijiubao\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="D:\AndroidStudioSpace\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\com.android.support.constraint-constraint-layout-1.0.2_f9b44091dc36b30ffc1e9e548909d48b32858dd8.jar" />
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\aijiubao\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-26.1.0_b03bbb0b2d7bd9a522bf0beabf3a323564a287e2.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidStudioSpace\SmartRFv0\aijiubao\build\intermediates\exploded-aar\com.android.support\appcompat-v7\26.0.0-alpha1\jars\classes.jar"
+        jar="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\exploded-aar\com.android.support\appcompat-v7\27.1.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
-        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
-        <dex dex="D:\AndroidStudioSpace\SmartRFv0\aijiubao\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-26.0.0-alpha1_2671131b053e12f19712c4b1d38fb20a0ea12944.jar" />
+        sha1="d968b9bd0011800e0d333d1571b8d34bcb8a0b6e">
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-27.1.1_754d005657d502045515f7c373aa6b6f019fc89c.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidStudioSpace\SmartRFv0\aijiubao\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\jars\classes.jar"
+        jar="E:\Space_Androidstudio\SmartRFv0\aijiubao\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.0.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
-        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
-        <dex dex="D:\AndroidStudioSpace\SmartRFv0\aijiubao\build\intermediates\pre-dexed\debug\com.android.support-support-compat-26.0.0-alpha1_fbe72b314dee61989cff441a147e6bdcb8ccefb8.jar" />
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\aijiubao\build\intermediates\pre-dexed\debug\android.arch.lifecycle-runtime-1.0.0_4e385ae65487b8544fcc13d1ceaed4d464beefa3.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidStudioSpace\SmartRFv0\factorytests\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\26.0.0-alpha1\jars\classes.jar"
+        jar="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\exploded-aar\com.android.support\support-core-utils\27.1.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
-        sha1="952944218ecedea1554a513dec0c14d570642843">
-        <dex dex="D:\AndroidStudioSpace\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-26.0.0-alpha1_d082353c8b5108362865c307d973b3cb6b208bdc.jar" />
+        sha1="ec657bb192b20229696216bf233779b16bf75a54">
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-27.1.1_bc2d091035a3be24ca9f01c4fa0ce33b03c9176b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidStudioSpace\SmartRFv0\factorytests\build\intermediates\exploded-aar\com.android.support\support-media-compat\26.0.0-alpha1\jars\classes.jar"
+        jar="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\exploded-aar\com.android.support\support-fragment\27.1.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
-        sha1="9935891f23923f39d002087085d9696568a9f657">
-        <dex dex="D:\AndroidStudioSpace\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-26.0.0-alpha1_da3a7ad5fe050319ab58e539cfbac9ca8d935e5a.jar" />
+        sha1="3304d33470ff64cf83bce9189ff3648a42eb2aa7">
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-27.1.1_4409b4e354a2cab1659063992ed371c33ee19b07.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidStudioSpace\SmartRFv0\factorytests\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\26.0.0-alpha1\jars\classes.jar"
+        jar="E:\Space_Androidstudio\SmartRFv0\aijiubao\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\26.1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
-        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
-        <dex dex="D:\AndroidStudioSpace\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-26.0.0-alpha1_071d51812238bb73edffbe137643f65c9ee740d2.jar" />
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\aijiubao\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-26.1.0_a90d584c66d068ec61b3d8d10ea4f7d2f31ef66c.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidStudioSpace\SmartRFv0\factorytests\build\intermediates\exploded-aar\com.android.support\support-core-utils\26.0.0-alpha1\jars\classes.jar"
+        jar="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\exploded-aar\android.arch.core\runtime\1.1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
-        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
-        <dex dex="D:\AndroidStudioSpace\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-26.0.0-alpha1_6bd6c261c3d1be9434981a1aa490f182a54e68d1.jar" />
+        sha1="71d380aeac037e63bab7bda2ba211777e16a2f42">
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\android.arch.core-runtime-1.1.0_e738b3adb236517076828b0878027d3eb03b852f.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidStudioSpace\SmartRFv0\factorytests\build\intermediates\exploded-aar\com.android.support\design\26.0.0-alpha1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
-        <dex dex="D:\AndroidStudioSpace\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\com.android.support-design-26.0.0-alpha1_8f395222a2a18357ebf9bf9020b97686ee1962fe.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidStudioSpace\SmartRFv0\aijiubao\build\intermediates\exploded-aar\com.android.support\support-fragment\26.0.0-alpha1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
-        <dex dex="D:\AndroidStudioSpace\SmartRFv0\aijiubao\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-26.0.0-alpha1_8b184e1c40eabc7c2139d507f43e1b4a9ad0012e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidStudioSpace\SmartRFv0\aijiubao\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\26.0.0-alpha1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="952944218ecedea1554a513dec0c14d570642843">
-        <dex dex="D:\AndroidStudioSpace\SmartRFv0\aijiubao\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-26.0.0-alpha1_9c6d1adfcb3225300dcdb236ce6705b0b38d4bb3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidStudioSpace\SmartRFv0\factorytests\build\intermediates\exploded-aar\com.android.support\support-fragment\26.0.0-alpha1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
-        <dex dex="D:\AndroidStudioSpace\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-26.0.0-alpha1_ca23f5d62f7581d37ed9f026b563ebaec8abf5b7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidStudioSpace\SmartRFv0\factorytests\build\intermediates\exploded-aar\com.android.support\transition\26.0.0-alpha1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
-        <dex dex="D:\AndroidStudioSpace\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\com.android.support-transition-26.0.0-alpha1_09275364ee6ad4190ce732082934e7218dff1ea0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidStudioSpace\SmartRFv0\aijiubao\build\intermediates\exploded-aar\com.android.support\support-v4\26.0.0-alpha1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="D:\AndroidStudioSpace\SmartRFv0\aijiubao\build\intermediates\pre-dexed\debug\com.android.support-support-v4-26.0.0-alpha1_2272f39bdc207c0c4ec953acf7f4d3b7b0f321bb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Dev\SDK\android-sdk-windows-24\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="023ee503b631f69511e335a061ea008f8da60f40">
-        <dex dex="D:\AndroidStudioSpace\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_43c34426df27edb263a8393d5430b10181407a59.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\AndroidStudioSpace\SmartRFv0\aijiubao\build\intermediates\exploded-aar\com.android.support\support-core-utils\26.0.0-alpha1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="27.0.3"
-        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
-        <dex dex="D:\AndroidStudioSpace\SmartRFv0\aijiubao\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-26.0.0-alpha1_37f2b875b9390686a8583411c947493ead6876bd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="D:\Dev\SDK\android-sdk-windows-24\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jar="E:\Dev\SDK\android-sdk-windows-24\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
         sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="D:\AndroidStudioSpace\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_e89b9247a69f3a4af45efb64195693828083cc63.jar" />
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_043358007d0a7ba2a19f870e0809d493ba4dd0d3.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidStudioSpace\SmartRFv0\factorytests\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.0.0-alpha1\jars\classes.jar"
+        jar="C:\Users\Lucien\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.0\e414a4cb28434e25c4f6aa71426eb20cf4874ae9\common-1.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
-        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
-        <dex dex="D:\AndroidStudioSpace\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-26.0.0-alpha1_790fadbb1b920f256edc3b7de6974db43bbf020c.jar" />
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\aijiubao\build\intermediates\pre-dexed\debug\common-1.0.0_535773cf92226010283cad1d1562907e3c53ab80.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidStudioSpace\SmartRFv0\factorytests\build\intermediates\exploded-aar\com.android.support\support-compat\26.0.0-alpha1\jars\classes.jar"
+        jar="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
-        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
-        <dex dex="D:\AndroidStudioSpace\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\com.android.support-support-compat-26.0.0-alpha1_b3a33c685b6b3504187f6b03f3800b7bd453531f.jar" />
+        sha1="e2bbe48deed35056023eed2cdc0cc92e5c7d3617">
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\android.arch.lifecycle-runtime-1.1.0_1baa35239d9a6c14cb2356f55da1af9a4e8288b6.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidStudioSpace\SmartRFv0\factorytests\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\26.0.0-alpha1\jars\classes.jar"
+        jar="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\27.1.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
-        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
-        <dex dex="D:\AndroidStudioSpace\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-26.0.0-alpha1_c4f5985a3a763e881c25d045652b74a53fea103a.jar" />
+        sha1="4d2b8ad415048e88b41ba4afcaafe36150e69b8c">
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-27.1.1_80c71cf8d788ea95bb96c00bc582db4a0b395ed5.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidStudioSpace\SmartRFv0\aijiubao\build\intermediates\exploded-aar\com.android.support\support-core-ui\26.0.0-alpha1\jars\classes.jar"
+        jar="E:\Space_Androidstudio\SmartRFv0\aijiubao\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\26.1.0\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
-        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
-        <dex dex="D:\AndroidStudioSpace\SmartRFv0\aijiubao\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-26.0.0-alpha1_263f0203c26af7924516fbb6725ace50b42d237c.jar" />
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\aijiubao\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-26.1.0_19ef5c4c7da3e2606905e7ec22fb3c425a0c4843.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidStudioSpace\SmartRFv0\factorytests\build\intermediates\exploded-aar\com.android.support\appcompat-v7\26.0.0-alpha1\jars\classes.jar"
+        jar="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\exploded-aar\com.android.support\design\27.1.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
-        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
-        <dex dex="D:\AndroidStudioSpace\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-26.0.0-alpha1_f75ec4086cff5b1f904f355cbc57813e411fed74.jar" />
+        sha1="ae6d33f37143b08cd8c477c9e348d61ef7ed7eba">
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\com.android.support-design-27.1.1_e12a90148b4b0d394bd57805a813eb158eb19cf3.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidStudioSpace\SmartRFv0\aijiubao\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\26.0.0-alpha1\jars\classes.jar"
+        jar="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\27.1.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
-        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
-        <dex dex="D:\AndroidStudioSpace\SmartRFv0\aijiubao\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-26.0.0-alpha1_546ed0bc50dee16d5958e1b09e09dae4fa422047.jar" />
+        sha1="c9a721adcd7dbae7a197b0ef81102336539f63ff">
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-27.1.1_cff75ed8e8ed63d8deb4b3e20aec5ec6577d99a1.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidStudioSpace\SmartRFv0\aijiubao\build\intermediates\exploded-aar\cn.carbswang.android\NumberPickerView\1.1.1\jars\classes.jar"
+        jar="E:\Space_Androidstudio\SmartRFv0\aijiubao\build\intermediates\exploded-aar\com.android.support\support-fragment\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\aijiubao\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-26.1.0_6ebbb5771be582404fa4a94b07641da363a30e0e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\exploded-aar\android.arch.lifecycle\livedata-core\1.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8a9fd7c97f1d13f97f3b52f9d2e54cd857d5acf9">
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\android.arch.lifecycle-livedata-core-1.1.0_d1875f1f95e4259fc7c72c81a7ca6f8749502d8e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\exploded-aar\com.android.support\transition\27.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="7038c6d960d3fe26fd41bc509f256c9692d886ce">
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\com.android.support-transition-27.1.1_b25c89353754225e2219cb1afdc6261e75d175fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Space_Androidstudio\SmartRFv0\aijiubao\build\intermediates\exploded-aar\com.android.support\appcompat-v7\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\aijiubao\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-26.1.0_2886ef9b6beb5ece2dae0aede9bdd0fff2eac925.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lucien\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.1.0\edf3f7bfb84a7521d0599efa3b0113a0ee90f85\common-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="0edf3f7bfb84a7521d0599efa3b0113a0ee90f85">
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\common-1.1.0_7ad0bf1ba996439fe1581e2f6402d7bed4b8c7f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lucien\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.1.0\8007981f7d7540d89cd18471b8e5dcd2b4f99167\common-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="8007981f7d7540d89cd18471b8e5dcd2b4f99167">
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\common-1.1.0_316697b5e1710d124f3079ee5ba49d9321a85fd5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Space_Androidstudio\SmartRFv0\aijiubao\build\intermediates\exploded-aar\com.android.support\support-media-compat\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\aijiubao\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-26.1.0_2faa19ec23b94409a47769df666223113db06d7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Space_Androidstudio\SmartRFv0\aijiubao\build\intermediates\exploded-aar\com.android.support\support-v4\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\aijiubao\build\intermediates\pre-dexed\debug\com.android.support-support-v4-26.1.0_6c1ab9b7f99962f7591ee849792d1071f7d35b79.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\exploded-aar\android.arch.lifecycle\viewmodel\1.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="1fd3ceac7f415975323d52c6c6057db409a907f6">
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\android.arch.lifecycle-viewmodel-1.1.0_f9a31997553e42538abff5153355b7db143bc4cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lucien\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\27.1.1\39ded76b5e1ce1c5b2688e1d25cdc20ecee32007\support-annotations-27.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="39ded76b5e1ce1c5b2688e1d25cdc20ecee32007">
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\support-annotations-27.1.1_448386f823a34e5db9878029a9bba7161e7983c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lucien\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\aijiubao\build\intermediates\pre-dexed\debug\common-1.0.0_10b51f731385c21da724f1d8bf798fca03526d50.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\exploded-aar\com.android.support\support-core-ui\27.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="874f1143c11f5d38533efe512bf913e3e847e7df">
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-27.1.1_473d3a8679591b551a346f88bba1d4fe61549659.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Space_Androidstudio\SmartRFv0\aijiubao\build\intermediates\exploded-aar\com.android.support\support-core-utils\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\aijiubao\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-26.1.0_adedd27da22332ac351025ec1f0b991bf4dca086.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.0.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\com.android.support.constraint-constraint-layout-1.0.2_be14d7d9c408282c3a525242d17948f3ef0f0638.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\27.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="2feadd535770271ca57b7b431f42151aa4af324a">
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-27.1.1_432e0a09a81bd46d415275fff97fd01e1a0c1463.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Space_Androidstudio\SmartRFv0\aijiubao\build\intermediates\exploded-aar\cn.carbswang.android\NumberPickerView\1.1.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
         sha1="237b2ebb3629bfdb0b874b6f023e552b41fa159b">
-        <dex dex="D:\AndroidStudioSpace\SmartRFv0\aijiubao\build\intermediates\pre-dexed\debug\cn.carbswang.android-NumberPickerView-1.1.1_d8c39b7f4c478ea875f2d084bb5fb248aa5b8b14.jar" />
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\aijiubao\build\intermediates\pre-dexed\debug\cn.carbswang.android-NumberPickerView-1.1.1_c9b46712cf0c51f70e87950cb0616fd1740fa82c.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="D:\AndroidStudioSpace\SmartRFv0\aijiubao\build\intermediates\exploded-aar\com.android.support\support-media-compat\26.0.0-alpha1\jars\classes.jar"
+        jar="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\exploded-aar\com.android.support\support-media-compat\27.1.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="27.0.3"
-        sha1="9935891f23923f39d002087085d9696568a9f657">
-        <dex dex="D:\AndroidStudioSpace\SmartRFv0\aijiubao\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-26.0.0-alpha1_3945fed5d4805a408c411c7e73b047992496c54a.jar" />
+        sha1="88c68e5ef7c5ace393d014c9ec5fe736b1ca55cf">
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\factorytests\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-27.1.1_a2a4889f86ab4f1d0e42e7f993ffbe8c61845d38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Lucien\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\26.1.0\814258103cf26a15fcc26ecce35f5b7d24b73f8\support-annotations-26.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\aijiubao\build\intermediates\pre-dexed\debug\support-annotations-26.1.0_12d22e2443463b0923e01bad89e349906d1e98ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\Space_Androidstudio\SmartRFv0\aijiubao\build\intermediates\exploded-aar\com.android.support\support-compat\26.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="E:\Space_Androidstudio\SmartRFv0\aijiubao\build\intermediates\pre-dexed\debug\com.android.support-support-compat-26.1.0_c5eb64f1106e68bb6d62ad3008b26b3857ac3952.jar" />
     </item>
 
 </items>

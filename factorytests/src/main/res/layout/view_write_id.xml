@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+
+    <RadioButton
+
+        android:id="@+id/radioButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/radioButton7"
+        android:layout_alignStart="@+id/radioButton3"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="37dp"
+        android:background="@null"
+        android:button="@null"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="金"
+        android:textColor="@color/color_txt_jin_selector"
+        android:textSize="28sp" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioButton2"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:button="@null"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="木"
+        android:textColor="@color/color_txt_mu_selector"
+        android:textSize="28sp" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/radioButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="13dp"
+        android:layout_marginStart="38dp"
+        android:background="@null"
+        android:button="@null"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="水"
+        android:textColor="@color/color_txt_shui_selector"
+        android:textSize="28sp"
+        android:id="@+id/radioButton7" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/radioButton3"
+        android:layout_alignBottom="@+id/radioButton3"
+        android:layout_marginStart="18dp"
+        android:layout_toEndOf="@+id/radioButton2"
+        android:background="@null"
+        android:button="@null"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="火"
+        android:textColor="@color/color_txt_huo_selector"
+        android:textSize="28sp"
+        android:id="@+id/radioButton4" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioButton"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="44dp"
+        android:layout_toEndOf="@+id/radioButton"
+        android:background="@null"
+        android:button="@null"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="土"
+        android:textColor="@color/color_txt_tu_selector"
+        android:textSize="28sp"
+        android:id="@+id/radioButton3" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>

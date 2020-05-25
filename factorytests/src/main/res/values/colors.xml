@@ -6,4 +6,12 @@
     <color name="drak_green">#008260</color>
     <color name="light_green">#76cab4</color>
     <color name="color_dark">#3d3c3c</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="color_txt_select">#ffff</color>
+    <color name="color_txt_normal_jin">#fffa9d</color>
+    <color name="color_txt_normal_mu">#46b353</color>
+    <color name="color_txt_normal_shui">#07b0ff</color>
+    <color name="color_txt_normal_huo">#fd6d3c</color>
+    <color name="color_txt_normal_tu">#706c5e</color>
 </resources>

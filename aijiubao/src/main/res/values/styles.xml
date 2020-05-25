@@ -40,12 +40,44 @@
         <item name="android:gravity">center</item>
     </style>
 
-    <style name="StyleTextPickTitle">
-        <item name="android:layout_width">@dimen/width_pick_view_tittle</item>
-        <item name="android:layout_height">@dimen/height_pick_view_tittle</item>
+    <style name="TextContainner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginBottom">@dimen/margin_bottom_pick_view_container</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="TextTitle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:textSize">@dimen/size_pick_view_title</item><!--18sp-->
         <item name="android:textColor">@color/colorWhite</item>
         <item name="android:gravity">center</item>
+    </style>
+
+    <style name="PickView">
+        <item name="android:layout_marginTop">@dimen/margin_top_pick_view</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">@dimen/height_pick_view</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:background">@mipmap/bg_picker_view</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="StyleTextPickTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height_pick_view_tittle</item>
+        <item name="android:textSize">@dimen/size_pick_view_title</item><!--18sp-->
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:lines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:isScrollContainer">true</item>
+
     </style>
 
     <style name="StylePickView">
@@ -61,6 +93,10 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/color_dark</item>
         <item name="android:background">@null</item>
+        <item name="android:lines">1</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:scrollHorizontally">true</item>
         <item name="android:textSize">@dimen/size_pick_view_title</item>
     </style>
 

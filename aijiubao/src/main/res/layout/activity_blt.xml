@@ -3,19 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="@mipmap/bg_multi_act"
     android:layout_height="match_parent"
+    android:background="@color/color_icon_green"
     android:orientation="vertical">
 
-    <RelativeLayout android:layout_width="match_parent"
+    <RelativeLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/title_top_marin"
-        android:layout_height="@dimen/title_height"
-        android:background="@null">
+        android:background="@color/color_icon_green">
 
         <ImageView
             android:id="@+id/iv_back"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_centerInParent="true"
             android:layout_marginStart="8dp"
@@ -26,25 +28,25 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:textColor="#ffffff"
             android:text="@string/app_name"
+            android:textColor="#ffffff"
             android:textSize="22sp"
             android:textStyle="bold" />
 
         <ImageView
-            android:layout_marginRight="50dp"
-            android:layout_alignParentEnd="true"
-            android:layout_centerInParent="true"
-            android:src="@drawable/ic_refresh"
             android:id="@+id/iv_reflash"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@null" />
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="50dp"
+            android:background="@null"
+            android:src="@drawable/ic_refresh" />
 
         <ImageView
             android:id="@+id/iv_setting"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_centerInParent="true"
             android:layout_marginEnd="8dp"
@@ -56,16 +58,15 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@null"
+        android:background="#e9008260"
         android:orientation="horizontal">
 
         <LinearLayout
             style="@style/StylePickViewContainner"
             android:layout_marginStart="15dp">
 
-            <TextView
+            <TextView android:lines="1"
                 style="@style/StyleTextPickTitle"
-                android:layout_width="wrap_content"
                 android:text="时间（分钟）" />
 
             <cn.carbswang.android.numberpickerview.library.NumberPickerView
@@ -75,9 +76,11 @@
                 app:npv_ItemPaddingHorizontal="5dp"
                 app:npv_ItemPaddingVertical="5dp"
                 app:npv_ShowCount="5"
-                app:npv_TextColorSelected="@color/color_btn_normal_dark"
-                app:npv_TextSizeNormal="16sp"
-                app:npv_TextSizeSelected="20sp"
+                app:npv_TextColorHint="@color/color_icon_green"
+                app:npv_TextColorNormal="@color/color_icon_green"
+                app:npv_TextColorSelected="@color/color_icon_green"
+                app:npv_TextSizeNormal="14sp"
+                app:npv_TextSizeSelected="22sp"
                 app:npv_WrapSelectorWheel="true" />
 
 
@@ -87,10 +90,9 @@
             style="@style/StylePickViewContainner"
             android:layout_marginStart="10dp">
 
-            <TextView
+            <TextView android:lines="1"
                 android:id="@+id/textView"
                 style="@style/StyleTextPickTitle"
-                android:layout_width="wrap_content"
                 android:text="温度（℃）" />
 
             <cn.carbswang.android.numberpickerview.library.NumberPickerView
@@ -100,21 +102,21 @@
                 app:npv_ItemPaddingHorizontal="5dp"
                 app:npv_ItemPaddingVertical="5dp"
                 app:npv_ShowCount="5"
-                app:npv_TextColorSelected="@color/color_btn_normal_dark"
-                app:npv_TextSizeNormal="16sp"
-                app:npv_TextSizeSelected="20sp"
+                app:npv_TextColorHint="@color/color_icon_green"
+                app:npv_TextColorNormal="@color/color_icon_green"
+                app:npv_TextColorSelected="@color/color_icon_green"
+                app:npv_TextSizeNormal="14sp"
+                app:npv_TextSizeSelected="22sp"
                 app:npv_WrapSelectorWheel="true" />
 
         </LinearLayout>
 
         <LinearLayout
             style="@style/StylePickViewContainner"
-            android:layout_marginEnd="15dp"
             android:layout_marginStart="10dp">
-
             <TextView
                 style="@style/StyleTextPickTitle"
-                android:text="穴位按摩间隔时间" />
+                android:text="间隔时间" />
 
 
             <cn.carbswang.android.numberpickerview.library.NumberPickerView
@@ -124,25 +126,48 @@
                 app:npv_ItemPaddingHorizontal="5dp"
                 app:npv_ItemPaddingVertical="5dp"
                 app:npv_ShowCount="5"
-                app:npv_TextColorSelected="@color/color_btn_normal_dark"
-                app:npv_TextSizeNormal="16sp"
-                app:npv_TextSizeSelected="20sp"
+                app:npv_TextColorHint="@color/color_icon_green"
+                app:npv_TextColorNormal="@color/color_icon_green"
+                app:npv_TextColorSelected="@color/color_icon_green"
+                app:npv_TextSizeNormal="14sp"
+                app:npv_TextSizeSelected="22sp"
                 app:npv_WrapSelectorWheel="true" />
 
         </LinearLayout>
+        <LinearLayout
+            style="@style/StylePickViewContainner"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="10dp">
+            <TextView
+                style="@style/StyleTextPickTitle"
+                android:text="五行属性" />
+            <cn.carbswang.android.numberpickerview.library.NumberPickerView
+                android:id="@+id/elements_picker"
+                style="@style/StylePickView"
+                app:npv_DividerColor="@color/color_transparent"
+                app:npv_ItemPaddingHorizontal="5dp"
+                app:npv_ItemPaddingVertical="5dp"
+                app:npv_ShowCount="5"
+                app:npv_TextColorHint="@color/color_icon_green"
+                app:npv_TextColorNormal="@color/color_icon_green"
+                app:npv_TextColorSelected="@color/color_icon_green"
+                app:npv_TextSizeNormal="14sp"
+                app:npv_TextSizeSelected="22sp"
+                app:npv_WrapSelectorWheel="true" />
 
+        </LinearLayout>
 
     </LinearLayout>
 
     <GridView
         android:id="@+id/gv_needle"
+
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@null"
+        android:background="@color/colorWhite"
         android:horizontalSpacing="2dp"
         android:numColumns="2"
-        android:verticalSpacing="2dp"/>
-
+        android:verticalSpacing="2dp" />
 
 
 </LinearLayout>

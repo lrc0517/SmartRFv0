@@ -12,4 +12,8 @@
     <string name="str_needle_work_temp_unit">&#160;℃</string>
     <string name="str_needle_work_time">Time:&#160;</string>
     <string name="str_needle_work_time_unit">&#160;min</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>

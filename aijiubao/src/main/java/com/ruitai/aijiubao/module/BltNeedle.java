@@ -352,12 +352,14 @@ public class BltNeedle {
     int mWorkTime = 30;
     int mMaxTemperature = 45;
     int mMassageTime = 5;
+    int mElements = 0;
 
-    public void setHope(int workTime,int maxTemperature,int massageTime){
+    public void setHope(int workTime,int maxTemperature,int massageTime,int elements){
         mMaxTemperature = maxTemperature;
         mWorkTime = workTime;
         mMassageTime = massageTime;
-        Log.e(TAG,"workTime = "+ workTime +",maxTemperature = " +maxTemperature +",massageTime = " +massageTime);
+        mElements = elements;
+        Log.e(TAG,"workTime = "+ workTime +",maxTemperature = " +maxTemperature +",massageTime = " +massageTime+",elements = "+elements);
         sendData();
     }
 
@@ -382,7 +384,7 @@ public class BltNeedle {
         SendBuf[8] = (byte) system_state;
         SendBuf[9] = (byte) (mWorkTime==0?work_time:mWorkTime);
         SendBuf[10] = (byte) (mMassageTime==0?massage_time:mMassageTime);
-        SendBuf[11] = (byte) device_id;
+        SendBuf[11] = (byte) (mElements==0?device_id:mElements);
         int j = 0;
         for (j = 0; j < DATA_LEN; j++) {
             //Log.i(TAG, "char6 SendBuf[" + j + "]=0x" + Integer.toHexString(SendBuf[j]).toUpperCase());
@@ -445,16 +447,20 @@ public class BltNeedle {
          * LXQ add datas
          */
         String address = gatt.getDevice().getAddress();
-        Log.e(TAG, "device_id s = " + device_id);
-        Log.e(TAG, "max_temp_h_state s = " + max_temp_h_state);
-        Log.e(TAG, "massage_time s = " + massage_time);
-        Log.e(TAG, "work_time s = " + work_time);
+        Log.e(TAG, "device_id  = " + device_id);
+        Log.e(TAG, "max_temp_h_state  = " + max_temp_h_state);
+        Log.e(TAG, "cur_temp_h_state  = " + cur_temp_h_state);
+        Log.e(TAG, "massage_time  = " + massage_time);
+        Log.e(TAG, "work_time  = " + work_time);
         mNeedleBean.enable =true;
         mNeedleBean.isWorking = hot_state;
         mNeedleBean.time = work_time;
         mNeedleBean.interval = massage_time;
         mNeedleBean.deviceAddress = address;
-        mNeedleBean.temperature = cur_temp_h_state - 5;//FIXME 2017.12.29 modify
+        if (cur_temp_h_state -15 >= 10){
+            mNeedleBean.temperature = cur_temp_h_state - 15;//FIXME 2017.12.29 modify
+        }
+
         mNeedleBean.hopeTemperature = max_temp_h_state;
         mNeedleBean.deviceId = device_id;
         Message msg = Message.obtain();  //从全局池中返回一个message实例，避免多次创建message（如new Message）

@@ -23,4 +23,5 @@ public class NeedleBean {
     public int hopeTemperature;
     public int interval;
     public int deviceId;
+    public int elements;
 }
